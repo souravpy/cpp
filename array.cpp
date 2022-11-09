@@ -7,6 +7,6 @@ int main(){
                 arr[i]=i;
         cout<<arr[i]<<endl;
         }
-        cout<<arr; //cant cout array at once without loops
+        //cout<<arr; //cant cout array at once without loops
 
 }
