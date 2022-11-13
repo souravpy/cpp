@@ -10,12 +10,13 @@ int main(){
         //cout<<arr; //cant cout array at once without loops
 
         //---------------------------------------
-        //replacing elements in array
+        // iterating loop
         int numb[10]={0,1,2,3,4,5,6,7,8,9};
         numb[3]=4;
-        cout<<numb;
         for (int i : numb){
                 cout<<i;
+        //replacing elements in array
+        // cout<<numb;
         }
 
 }
