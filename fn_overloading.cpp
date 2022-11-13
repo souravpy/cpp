@@ -21,7 +21,6 @@ void printer(char a){
         cout<<a<<endl;
 }
 
-
 int main(){
 //making code to print values of different datatypes
 int a=69;
@@ -31,3 +30,12 @@ printer(a);
 printer(b);
 printer(c);
 }
+
+// Invalid:
+// void add(int a, int b = 3, int c, int d);
+
+// Invalid:
+// void add(int a, int b = 3, int c, int d = 4);
+
+// Valid:
+// void add(int a, int c, int b = 3, int d = 4);

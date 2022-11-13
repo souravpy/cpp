@@ -11,9 +11,9 @@ int main(){
         int a, b, c;
 
         cout<<"enter a : "<<endl;
-        // cin >>a;
+        cin >>a;
         cout<<"enter b : "<<endl;
-        // cin >>b;
-        c=summer(a,10);
+        cin >>b;
+        c=summer(a,b);
         cout<<"sum is : "<<c<<endl;
 }
