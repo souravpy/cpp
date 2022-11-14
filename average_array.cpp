@@ -14,4 +14,6 @@ int main(){
         cout<<avg<<endl;
         cout<<sum<<endl;
         return 0;
+
+
 }
