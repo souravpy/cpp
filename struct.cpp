@@ -9,14 +9,14 @@ struct car{
         int weight;
 };
 
-void display_prop(){
-        
+void display_prop(car Porche){
+        cout<<"car's name is" << Porche.name<<endl;     
 }
 
 int main(){
         struct car Porche;
         int hp = 666; //default argument
-        char name = "911_turbo";
+        char name = 't';
         int top_speed = 350;
         int weight = 1696;
 }
