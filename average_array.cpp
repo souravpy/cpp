@@ -6,7 +6,7 @@ int main(){
         double sum=0;
         double avg;
         double size=0;
-        for(const int &i : arr){
+        for(const int &i : arr){ // i is pointer
                 sum += i;
                 ++size;
         }
