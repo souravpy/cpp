@@ -8,7 +8,7 @@ struct car{
         int top_speed = 300;
         int weight;
 };
-
+//passing struct to function
 void display_prop(car Porche){
         cout<<"car's name is" << Porche.name<<endl;     
 }
