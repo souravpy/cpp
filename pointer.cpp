@@ -2,6 +2,7 @@
 using namespace std;
 
 // pointers in cpp
+//pointer must have same datatype as variable it is pointing to
 int main(){
         int var = 69;  // declaring variable
         int *pointvar; // creating pointer
