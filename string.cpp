@@ -1,7 +1,15 @@
 #include<iostream>
 using namespace std;
 //strings = array of characters.
-
+// string rev(string a){
+        // for(int i = size(a) ; i>0 ; i-- ){
+// 
+        // }
+void length(string a){
+        for(int i = size(a) ; i>0 ; i++ ){
+                cout << i;
+        }
+}
 int main(){
         // c style
         char str1[11]; 
