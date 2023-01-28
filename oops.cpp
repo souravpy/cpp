@@ -49,24 +49,24 @@ int main()
         eminem.Company = "rap";
         eminem.ledger();
         eminem.intro();
-// 
+
         // Employee eminem; // defining an object
         // eminem.Age = 69; // defining attribute . 
         // eminem.Name = "slim shady";
         // eminem.Company = "rap";
         // eminem.ledger();
         // eminem.intro();
-// 
+
         // Employee eminem; // defining an object
         // eminem.Age = 69; // defining attribute . 
         // eminem.Name = "slim shady";
         // eminem.Company = "rap";
         // eminem.ledger();
         // eminem.intro();
-// 
-        //problem is we have to initiate multiple times whenever an object is defined
-        //code becomes messy
-        //constructors come to play
+
+        // problem is we have to initiate multiple times whenever an object is defined
+        // code becomes messy
+        // constructors come to play
 
        Employee hello = Employee() ;
        hello.intro();

@@ -25,21 +25,26 @@ public:
 
 //-----------------------------------------------------        
         void setAge(int age){//setter
+                if (age>=18)//setting parameter
                 Age = age; 
         }
-        string getAge(){//getter
-                return Company;
+        int getAge(){//getter
+                return Age;
         }
 //-----------------------------------------------------        
-        Employee(string name, string company, ,int age){
+//employee constructor
+        Employee(string name, string company, int age){
                 Name = name;
                 Company = company;
-
+                Age = age;
         }
 };
 int main()
 {
         Employee helllo = Employee("hello", "cat", 69);
         helllo.setAge(79);
-        cout<<"helllo's age is "<<helllo.getAge;
+        cout<<"helllo's age is "<<helllo.getAge(); //accesing methods needs barackets...
 }
+
+
+//when using getter and setters we can set parameters for accessing 
