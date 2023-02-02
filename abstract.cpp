@@ -51,10 +51,13 @@ Employee(string name, string company, int age){
         Age = age;
 }
 };
-//--------------------------------------------
+
+//____________________________________________________________________
+
 int main(){
         Employee helloo = Employee("hello", "world", 22); 
-        Employee belloo= Employee("bello", "world", 44); 
         helloo.AskForPromotion();
+
+        Employee belloo= Employee("bello", "world", 44); 
         belloo.AskForPromotion();
 }

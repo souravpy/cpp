@@ -1,0 +1,18 @@
+#include <iostream>
+int vall;
+ std: :cout<<"wefsadfas";
+ std: :cin>>vall;
+ std: :cout<<"wefsadfas";
+ std: :cout<<"wefsadfas";
+ std: :cout<<"wefsadfas";
+ std: :cout<<"wefsadfas";
+ std: :cout<<"wefsadfas";
+ std: :cout<<"wefsadfas";
+ std: :cout<<"wefsadfas";
+ std: :cin>>vall;
+ std: :cin>>vall;
+ std: :cin>>vall;
+ std: :cin>>vall;
+ std: :cin>>vall;
+ std: :cin>>vall;
+ std: :cin>>vall;
